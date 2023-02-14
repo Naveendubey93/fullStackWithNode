@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "setup apis",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naveendubey93/fullStackWithNode.git"
+  },
+  "keywords": [
+    "fullstack"
+  ],
+  "author": "NaveenWithGrider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naveendubey93/fullStackWithNode/issues"
+  },
+  "homepage": "https://github.com/Naveendubey93/fullStackWithNode#readme",
+  "dependencies": {
+    "cookie-session": "^2.0.0",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "passport": "^0.5.3",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
